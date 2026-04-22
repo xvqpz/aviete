@@ -1,0 +1,2 @@
+# aviete
+RaspberryPI projektas pristatymui
