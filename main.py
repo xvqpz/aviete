@@ -25,7 +25,7 @@ def downloadDataset(path, version):
 
 #1 epoch = viena kart perskaito dataset. 50 epochs - perskaito 50 kartu
     #ok? ok.
-def trainModel(model, path, epochs=1, batch=-1):
+def trainModel(model, path, epochs=50, batch=-1):
     if path is None:
         print("ner yaml failo :(")
         return

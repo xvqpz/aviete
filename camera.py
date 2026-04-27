@@ -1,7 +1,7 @@
 from ultralytics import YOLO
 import cv2
 
-model = YOLO("best.pt")
+model = YOLO("bomba.pt")
 
 camera = cv2.VideoCapture(0)
 
